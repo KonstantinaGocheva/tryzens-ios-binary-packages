@@ -1,3 +1,4 @@
+// swift-tools-version: 5.9
 import PackageDescription
 
 let base = "https://github.com/KonstantinaGocheva/tryzens-ios-binary-packages/releases/download/1.0.0/"
