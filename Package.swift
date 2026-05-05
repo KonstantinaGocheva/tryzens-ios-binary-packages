@@ -1,6 +1,6 @@
 import PackageDescription
 
-let base = "https://bitbucket.org/tryzens-mobile-apps/tryzens-ios-binary-packages/downloads"
+let base = "https://github.com/KonstantinaGocheva/tryzens-ios-binary-packages/releases/download/1.0.0/"
 
 let package = Package(
     name: "TryzensBinaryPackages",
