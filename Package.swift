@@ -24,32 +24,32 @@ let package = Package(
         .binaryTarget(
             name: "TryzensAnalytics",
             url: "\(base)/TryzensAnalytics.xcframework.zip",
-            checksum: "152b939fedfdc23dc96c98a13eedbd5ba6944a76c4527ced6b1ba0a74b711743"
+            checksum: "330b08c45dc95de867d4d5ed4200e572e3515ed93e987912a32b68dff69d9d81"
         ),
         .binaryTarget(
             name: "TryzensScreens",
             url: "\(base)/TryzensScreens.xcframework.zip",
-            checksum: "992c2766d60d09aedfb2f93c82781dc30f30c5a888da229e1fbc680e55dddaf3"
+            checksum: "f32549839f19f20aaf0b5f7e70383c483490024439280976c0055c9c054539c1"
         ),
         .binaryTarget(
             name: "TryzensSFCCSDK",
             url: "\(base)/TryzensSFCCSDK.xcframework.zip",
-            checksum: "e7c4e839c06661a48164aa644c3360dcc8d5dc48ac712457931a54e074954d36"
+            checksum: "09f5d48add35aae0121fd8eee2919e64fc1aefb17c168de30aebae9c43145d33"
         ),
         .binaryTarget(
             name: "TryzensURLNavigator",
             url: "\(base)/TryzensURLNavigator.xcframework.zip",
-            checksum: "731bde4fda8dec9226a0837de2f0b2a716186db78824ea9190fa0bd63d295862"
+            checksum: "d655ff03c93fb339a632728a0a05c46e8043e3fabf22eacaba931cc5f79d1c3d"
         ),
         .binaryTarget(
             name: "TryzensURLMatcher",
             url: "\(base)/TryzensURLMatcher.xcframework.zip",
-            checksum: "0d2b440966680b186bae84aad58bbec22194b1ef5dae9aa3c7ef9f33260d5e28"
+            checksum: "82b1048ddc82d112ecfd1af084f6ba83a8041948d82104a93868eded3025e893"
         ),
         .binaryTarget(
             name: "JVFloatLabeledTextField",
             url: "\(base)/JVFloatLabeledTextField.xcframework.zip",
-            checksum: "d72a594b0660e2c00642f3c2d554bf760652c1a17ecda77a32870e8e5555a543"
+            checksum: "9877c4ea659c74579a23ca8cfe9db8783029e41f51847c28b3f1a304c0c34118"
         ),
     ]
 )
