@@ -8,48 +8,48 @@ let package = Package(
     platforms: [.iOS(.v15)],
     products: [
         .library(name: "TryzensCore",             targets: ["TryzensCoreWrapper"]),
-        .library(name: "TryzensAnalytics",        targets: ["TryzensAnalytics"]),
-        .library(name: "TryzensScreens",          targets: ["TryzensScreens"]),
-        .library(name: "TryzensSFCCSDK",          targets: ["TryzensSFCCSDK"]),
-        .library(name: "TryzensURLNavigator",     targets: ["TryzensURLNavigator"]),
-        .library(name: "TryzensURLMatcher",       targets: ["TryzensURLMatcher"]),
-        .library(name: "JVFloatLabeledTextField", targets: ["JVFloatLabeledTextField"]),
+        .library(name: "TryzensAnalytics",        targets: ["TryzensAnalyticsWrapper"]),
+        .library(name: "TryzensScreens",          targets: ["TryzensScreensWrapper"]),
+        .library(name: "TryzensSFCCSDK",          targets: ["TryzensSFCCSDKWrapper"]),
+        .library(name: "TryzensURLNavigator",     targets: ["TryzensURLNavigatorWrapper"]),
+        .library(name: "TryzensURLMatcher",       targets: ["TryzensURLMatcherWrapper"]),
+        .library(name: "JVFloatLabeledTextField", targets: ["JVFloatLabeledTextFieldWrapper"]),
     ],
     targets: [
         .binaryTarget(
             name: "TryzensCoreWrapper",
             url: "\(base)/TryzensCoreWrapper.xcframework.zip",
-            checksum: "71416c1ed8240cb0cef600d045b57392e95637b7c1d91d1120d0ef4ddbd2a25d"
+            checksum: "7e751550910a57e4fe6bb1c6501532042e4e5f4ecccd8a9e13bcde62a6e555c1"
         ),
         .binaryTarget(
-            name: "TryzensAnalytics",
-            url: "\(base)/TryzensAnalytics.xcframework.zip",
-            checksum: "330b08c45dc95de867d4d5ed4200e572e3515ed93e987912a32b68dff69d9d81"
+            name: "TryzensAnalyticsWrapper",
+            url: "\(base)/TryzensAnalyticsWrapper.xcframework.zip",
+            checksum: "b97bc51a319998d3cc18b230cb8c21be6067cf3d4af071366bdabf5e1b23a1d8"
         ),
         .binaryTarget(
-            name: "TryzensScreens",
-            url: "\(base)/TryzensScreens.xcframework.zip",
-            checksum: "f32549839f19f20aaf0b5f7e70383c483490024439280976c0055c9c054539c1"
+            name: "TryzensScreensWrapper",
+            url: "\(base)/TryzensScreensWrapper.xcframework.zip",
+            checksum: "f185ee78e058842724b6069b609956e42c10b1fcfb480b5466e51a6c6a8afbb9"
         ),
         .binaryTarget(
-            name: "TryzensSFCCSDK",
-            url: "\(base)/TryzensSFCCSDK.xcframework.zip",
-            checksum: "09f5d48add35aae0121fd8eee2919e64fc1aefb17c168de30aebae9c43145d33"
+            name: "TryzensSFCCSDKWrapper",
+            url: "\(base)/TryzensSFCCSDKWrapper.xcframework.zip",
+            checksum: "d32c3fdafab22ee7f5d0e127a160f7e7f41260212efe9c67e7b010535ffc6904"
         ),
         .binaryTarget(
-            name: "TryzensURLNavigator",
-            url: "\(base)/TryzensURLNavigator.xcframework.zip",
-            checksum: "d655ff03c93fb339a632728a0a05c46e8043e3fabf22eacaba931cc5f79d1c3d"
+            name: "TryzensURLNavigatorWrapper",
+            url: "\(base)/TryzensURLNavigatorWrapper.xcframework.zip",
+            checksum: "988d316c6cc84e2c46a5791891637b5a0a364f0dcfe76aaa9da6488097be223e"
         ),
         .binaryTarget(
-            name: "TryzensURLMatcher",
-            url: "\(base)/TryzensURLMatcher.xcframework.zip",
-            checksum: "82b1048ddc82d112ecfd1af084f6ba83a8041948d82104a93868eded3025e893"
+            name: "TryzensURLMatcherWrapper",
+            url: "\(base)/TryzensURLMatcherWrapper.xcframework.zip",
+            checksum: "efc8d6cc94a5b123aaeeae14564d9b3e9006cc20d945a088d26493fea17a3a8b"
         ),
         .binaryTarget(
-            name: "JVFloatLabeledTextField",
-            url: "\(base)/JVFloatLabeledTextField.xcframework.zip",
-            checksum: "9877c4ea659c74579a23ca8cfe9db8783029e41f51847c28b3f1a304c0c34118"
+            name: "JVFloatLabeledTextFieldWrapper",
+            url: "\(base)/JVFloatLabeledTextFieldWrapper.xcframework.zip",
+            checksum: "b372dc504f7cfe4568d4f9ff23094be38037faea18d9c5500b3538467c517be0"
         ),
     ]
 )
